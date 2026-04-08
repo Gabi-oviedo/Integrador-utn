@@ -6,7 +6,6 @@ El objetivo es crear una guía básica para Conocer el juego Minecraft.
 
 ## Contenido
 - Página principal (index.html)
-- Página de contacto (contacto.html)
 - Imagen y video
 - Tabla de materiales
 - Formulario de contacto
