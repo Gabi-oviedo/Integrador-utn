@@ -1,13 +1,15 @@
-#mi proyecto    
+# Proyecto Guía de Supervivencia en Minecraft
 
-##descripcion
-este proyecyo es sexo
+## Sobre el Sitio
+Este proyecto es una página web desarrollada en HTML para la materia Programación III.
+El objetivo es crear una guía básica para Conocer el juego Minecraft.
 
-##contenido 
--pagina principal
--imagenes
--video
--formulario
+## Contenido
+- Página principal (index.html)
+- Página de contacto (contacto.html)
+- Imagen y video
+- Tabla de materiales
+- Formulario de contacto
 
-#"#autor
+## Autor
 Gabriel Oviedo
