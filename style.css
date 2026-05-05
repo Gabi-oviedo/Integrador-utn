@@ -1,17 +1,3 @@
-header{
-    font-family: "Pixelify Sans", sans-serif;
-    background-color: rgba(8, 8, 8, 0.685);
-    box-shadow: 0px 5px 5px;
-    border-radius: 5px;
-    margin: none;
-    padding: 2px;
-    font-weight: 500;
-    font-size: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
 
 #menu{
     display: none;
@@ -58,16 +44,54 @@ nav a:hover{
 
 .title1{
 text-align: center;
+color: #ccc;
+    font-family: "Pixelify Sans", sans-serif;
 
+}
+
+p{
+    margin: 5px;
+    padding: 5px;
+}
+
+img{
+    border-radius: 5px;
+   
 }
 
 body{
-    background-color: #0f0f0f;
-    color: white;
+    background-color: #0f0f0fee;
     margin: 0;
     padding: 0;
-
+    color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: white; /* o el color que quieras */
+    width: 80%; /* opcional */
+    margin: 20px auto; /* centra y separa */
+}
+
+header{
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: rgba(56, 52, 52, 0.315);
+    box-shadow: 0px 5px 5px;
+   color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: none;
+    padding: 2px;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
 
 nav ul{
     list-style: none;
