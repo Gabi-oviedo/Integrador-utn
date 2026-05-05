@@ -4,13 +4,17 @@
     <title>Guia Tutorial de Minecraft</title>
     <link rel="icon" href="img/Minecraft-creeper-face.jpg">
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 <body>
     <header>
-       <h1> Guia Tutorial de Minecraft</h1>
+       <h1 class="title"> Guia Tutorial de Minecraft</h1>
+       <label for="menu" class="menu-btn">☰</label>
     </header>
-    <nav>
-    <ul>
+    <input type="checkbox" id="menu">
+    <nav class="menu-toggle">
+    <ul class="list">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#pasos">Primeros pasos</a></li>
         <li><a href="#tabla">Materiales</a></li>
@@ -19,7 +23,7 @@
     </nav>
     <main>
         <section id="inicio">
-           <h2> ¿Qué es Minecraft? </h2>
+           <h2 class="title1"> ¿Qué es Minecraft? </h2>
            <p>Minecraft es un juego de superviencia donde puedes construir, sobrevivir y explorar sin límites en un mundo hecho de cubos</p>
 
             <img src="img/minecraft logo.jpg" alt="Portada del juego" width="300">
@@ -32,7 +36,7 @@
 
         </section>
         <section id="pasos"> 
-            <h2>Como empezar</h2>
+            <h2 class="title">Como empezar</h2>
             <ol>
             <li>Recolectar madera</li>
             <li>Crear mesa de crafteo</li>
