@@ -165,3 +165,111 @@ nav li{
     transform: translateY(-10px);
     box-shadow: 0px 12px 0px #4a2d16;
 }
+
+
+
+.tabla{
+    text-align: left;
+    padding:0;
+    margin:0;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+.titulo{
+    background-color: #383737c0;
+    text-align: center;
+}
+
+.mat{
+    text-align: center;
+}
+
+td,th{
+     border: 2px solid rgba(78, 39, 13, 0.897);
+    padding: 12px;
+}
+
+td img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#tabla h2{
+  font-family: "Pixelify Sans", sans-serif;
+
+}
+
+.title3{
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+#inicio h2{
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+form{
+    background-color: #2b2b2b;
+    border: 3px solid #111;
+    text-align: left;
+    padding: 30px;
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+     margin: 50px auto;
+    width: 420px;
+}
+h2{
+    font-size: 40px;
+      margin-bottom: 25px;
+    text-align: center;
+     font-family: "Pixelify Sans", sans-serif;
+    
+}
+label{
+   display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+button{
+    margin-top: 30px;
+    background: #d9d4cf;
+    border: none;
+    padding: 15px 35px;
+    font-weight: bold;
+    color: #777;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #ffffff;
+}
+
+form input , form select{
+
+    width: 100%;
+    padding: 12px;
+    background: #1f1f1f;
+    border: 1px solid #666;
+    color: white;
+    font-size: 16px;
+}
+
+textarea{
+     width: 100%;
+
+    padding: 12px;
+    background: #1f1f1f;
+    border: 1px solid #666;
+
+    color: white;
+
+    font-size: 16px;
+}
