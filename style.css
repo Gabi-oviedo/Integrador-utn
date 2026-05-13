@@ -114,7 +114,7 @@ nav li{
 .contenedor-cards{
      overflow-x: auto;
     padding: 20px;
-    scroll-behavior: smooth;
+    
 }
 .contenedor-cards ol{
    display: flex;
@@ -169,7 +169,7 @@ nav li{
 
 
 .tabla{
-    text-align: left;
+    text-align: center;
     padding:0;
     margin:0;
     border-collapse: collapse;
