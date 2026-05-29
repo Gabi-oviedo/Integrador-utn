@@ -1,4 +1,9 @@
+:root{
+    --color-primario: #0f0f0f;
+    --color-secundario: #1a1a1a;
+    --color-texto: #ccc;
 
+}
 #menu{
     display: none;
 }
@@ -19,7 +24,7 @@
 
 
 nav{
-    background-color: #0f0f0f;
+    background-color: var(--color-primario);
     padding: 10px;
     margin: none;
 }
@@ -27,24 +32,24 @@ nav a{
     
    display: block;
     padding: 15px 20px;
-    color: #ccc;
-    background-color: #0f0f0f;
+    color: var(--color-texto);
+    background-color: var(--color-primario);
     text-decoration: none;
      text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
 }
 nav a:visited{
-    color: white;
+    color: var(--color-texto);
 }
 nav a:hover{
-    background-color: #1a1a1a;
+    background-color: var(--color-secundario);
     color: green;
 }
 
 .title1{
 text-align: center;
-color: #ccc;
+color: var(--color-texto);
     font-family: "Pixelify Sans", sans-serif;
 
 }
@@ -63,7 +68,7 @@ body{
     background-color: #0f0f0fee;
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--color-texto);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -71,9 +76,9 @@ body{
 hr{
     border: none;
     height: 2px;
-    background-color: white; /* o el color que quieras */
-    width: 80%; /* opcional */
-    margin: 20px auto; /* centra y separa */
+    background-color: white; 
+    width: 80%; 
+    margin: 20px auto; 
 }
 
 header{
@@ -157,7 +162,7 @@ nav li{
 }
 .title3{
     text-align: center;
-    color: white;
+    color: var(--color-texto);
     font-size: 45px;
     margin-bottom: 40px;
 }
@@ -171,7 +176,7 @@ nav li{
 .tabla{
     text-align: center;
     padding:0;
-    margin:0;
+    margin:auto;
     border-collapse: collapse;
     width: 600px;
 }
@@ -217,7 +222,7 @@ form{
     border: 3px solid #111;
     text-align: left;
     padding: 30px;
-    color: white;
+    color: var(--color-texto);
     box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
      margin: 50px auto;
     width: 420px;
@@ -258,7 +263,7 @@ form input , form select{
     padding: 12px;
     background: #1f1f1f;
     border: 1px solid #666;
-    color: white;
+    color: var(--color-texto);
     font-size: 16px;
 }
 
@@ -268,6 +273,6 @@ textarea{
     padding: 12px;
     background: #1f1f1f;
     border: 1px solid #666;
-    color: white;
+    color: var(--color-texto);
     font-size: 16px;
 }
