@@ -9,11 +9,11 @@ El sitio fue diseñado aplicando conceptos de desarrollo web responsive utilizan
 ## Contenido
 - Página principal (index.html)
 - Menú de navegación responsive
--Imágenes ilustrativas
--Video integrado
--Tabla de materiales y usos
--Tarjetas informativas
--Diseño adaptable para dispositivos móviles
+- Imágenes ilustrativas
+- Video integrado
+- Tabla de materiales y usos
+- Tarjetas informativas
+- Diseño adaptable para dispositivos móviles
 - Formulario de contacto
 
 ## Tecnologías utilizadas
