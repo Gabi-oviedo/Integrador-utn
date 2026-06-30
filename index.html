@@ -80,7 +80,7 @@
 
         <div id="resultado"></div>
 
-            <h3>Todos los consejos</h3>
+            
 
         <ul id="listaConsejos"></ul>
         </section>
@@ -125,7 +125,7 @@
         <hr>
         <section id="Contacto">
             <h2>Contacto</h2>
-            <form class="form">
+            <form class="form" id="formContacto">
                 <label for="nombre">Nombre:</label><br>
                 <input type="text" id="nombre" name="nombre" required placeholder="Nombre"><br><br>
 
@@ -134,7 +134,8 @@
 
                 <label for="mensaje">Mensaje:</label><br>
                 <textarea id="mensaje" name="mensaje" required placeholder="mensaje"></textarea><br><br>
-
+                <p id="contador">Caracteres: 0</p>
+                <p id="error" style="color:red;"></p>
                 <button type="submit">Enviar</button>
             </form>
         </section>

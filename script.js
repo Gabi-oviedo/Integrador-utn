@@ -12,6 +12,17 @@ const consejos = [
     "Guarda siempre las coordenadas de tu Casa."
 ];
 
+const input = document.getElementById("buscarConsejo");
+const botonBuscar = document.getElementById("btnBuscar");
+const resultado = document.getElementById("resultado");
+const btnAleatorio = document.getElementById("btnAleatorio");
+const formulario = document.getElementById("formContacto");
+const nombre = document.getElementById("nombre");
+const email = document.getElementById("email");
+const mensaje = document.getElementById("mensaje");
+const error = document.getElementById("error");
+const contador = document.getElementById("contador");
+
 function mostrarConsejos() {
 
     const lista = document.getElementById("listaConsejos");
@@ -27,12 +38,6 @@ function mostrarConsejos() {
     });
 
 }
-
-mostrarConsejos();
-
-const input = document.getElementById("buscarConsejo");
-const botonBuscar = document.getElementById("btnBuscar");
-const resultado = document.getElementById("resultado");
 
 function buscarConsejo() {
 
@@ -61,4 +66,53 @@ function buscarConsejo() {
 
 }
 
+function consejoAleatorio(){
+
+    const indice = Math.floor(Math.random() * consejos.length);
+
+    resultado.textContent = consejos[indice];
+
+}
+
+function validarFormulario(event){
+
+    event.preventDefault();
+
+    error.textContent = "";
+
+    try{
+
+        if(nombre.value.trim() === ""){
+            throw new Error("Debe ingresar un nombre.");
+        }
+
+        if(email.value.trim() === ""){
+            throw new Error("Debe ingresar un email.");
+        }
+
+        if(mensaje.value.trim() === ""){
+            throw new Error("Debe ingresar un mensaje.");
+        }
+
+        error.style.color = "green";
+        error.textContent = "Formulario enviado correctamente.";
+
+    }
+
+    catch(err){
+
+        error.style.color = "red";
+        error.textContent = err.message;
+
+    }
+
+}
+
+btnAleatorio.addEventListener("click", consejoAleatorio);
 botonBuscar.addEventListener("click", buscarConsejo);
+formulario.addEventListener("submit", validarFormulario);
+mensaje.addEventListener("input", function(){
+
+    contador.textContent = "Caracteres: " + mensaje.value.length;
+
+});
